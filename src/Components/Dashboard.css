@@ -1,0 +1,38 @@
+.btn{
+  background-color: red;
+  margin: 12px;
+  height: 40px;
+  width: 114px;
+}
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .category {
+    display: flex;
+    flex-direction: column;
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .category h3 {
+    margin-bottom: 16px;
+  }
+  
+  .widget-1 {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 16px; 
+  }
+  
+  .widget-1 > * {
+    flex: 1 1 calc(33.333% - 32px); 
+    background-color: #f0f0f0;
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
